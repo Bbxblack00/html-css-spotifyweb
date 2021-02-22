@@ -1,0 +1,27 @@
+/* REGOLE GENERALI */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+
+
+
+/* REGOLE HEADER */
+header {
+  width: 10%;
+  flex-basis: 100vh;
+  background-color: red;
+}
+
+header h1{
+  text-align: center;
+}
