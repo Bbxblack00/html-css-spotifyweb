@@ -18,6 +18,7 @@ body {
 
 .gray {
   color: gray;
+  margin-left: 2px;
 }
 
 
@@ -38,4 +39,9 @@ header .container h1, header .container h2{
 .lime {
   border-left: 2px solid lime;
   padding-left: 5px;
+}
+
+.row.playlist h4, .row.playlist h1{
+  display: inline-block;
+  line-height: 63px;
 }
