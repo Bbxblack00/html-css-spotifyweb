@@ -27,6 +27,7 @@ header {
   width: 250px;
   flex-basis: 100vh;
   background-color: black;
+  display: flex;
 }
 
 header .container h1, header .container h2{
@@ -47,9 +48,11 @@ header .container h1, header .container h2{
 }
 
 
-.piep {
-  line-height: 40px;
+#piep {
+  line-height: 57px;
   align-self: flex-end;
+  border-bottom: 1px solid gray;
+  padding: 0 auto;
 }
 
 .row.piep p{
