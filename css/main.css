@@ -28,6 +28,7 @@ header {
   flex-basis: 90vh;
   background-color: black;
   display: flex;
+  flex-direction: column;
 }
 
 header .container h1, header .container h2{
@@ -61,11 +62,20 @@ header .container h1, header .container h2{
 }
 
 #account {
-  align-self: flex-end;
   background-color: gray;
+  background-image: url("../img/profile.svg");
+  background-position: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  line-height: 35px;
 }
 
-#acccount img{
-  border-radius: 100%;
+header .row:last-child {
+  height: 35px;
+  margin-top: 5px;
+}
 
+header .row:last-child h5{
+  line-height: 35px;
 }
