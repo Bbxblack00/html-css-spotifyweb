@@ -25,7 +25,7 @@ body {
 /* REGOLE HEADER */
 header {
   width: 250px;
-  flex-basis: 100vh;
+  flex-basis: 90vh;
   background-color: black;
   display: flex;
 }
@@ -49,10 +49,11 @@ header .container h1, header .container h2{
 
 
 #piep {
-  line-height: 57px;
+  line-height: 40px;
   align-self: flex-end;
   border-bottom: 1px solid gray;
-  padding: 0 auto;
+  height: 40px;
+  align-self: flex-end;
 }
 
 .row.piep p{
@@ -61,4 +62,10 @@ header .container h1, header .container h2{
 
 #account {
   align-self: flex-end;
+  background-color: gray;
+}
+
+#acccount img{
+  border-radius: 100%;
+
 }
