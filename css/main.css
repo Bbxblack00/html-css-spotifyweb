@@ -23,12 +23,13 @@ body {
 
 
 /* REGOLE HEADER */
-header {
+header .container{
   width: 250px;
   flex-basis: 90vh;
   background-color: black;
   display: flex;
   flex-direction: column;
+  top: 0;
 }
 
 header .container h1, header .container h2{
@@ -77,5 +78,6 @@ header .row:last-child {
 }
 
 header .row:last-child h5{
-  line-height: 35px;
+  line-height: 30px;
+  margin-left: 10px;
 }
