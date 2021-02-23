@@ -45,3 +45,17 @@ header .container h1, header .container h2{
   display: inline-block;
   line-height: 63px;
 }
+
+
+.piep {
+  line-height: 40px;
+  align-self: flex-end;
+}
+
+.row.piep p{
+  margin-right: 5px;
+}
+
+#account {
+  align-self: flex-end;
+}
