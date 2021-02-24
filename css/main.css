@@ -25,9 +25,15 @@ body {
   margin-left: 2px;
 }
 
+.mainBK {
+  background-color: rgb(20, 25, 34);
+}
+
 main {
-  display: flex;
   width: calc(100% - 250px);
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 /* REGOLE HEADER */
@@ -96,13 +102,11 @@ header .row:last-child h5{
 
 /* regole selection */
 #selection{
-  width: calc(100% - 250px);
-  position: absolute;
-  top: 0;
-  right: 0;
   text-align: center;
+  padding-top: 55px;
 }
 
 #selection ul li {
   display: inline-block;
+  margin: 0 15px;
 }
