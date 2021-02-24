@@ -119,15 +119,18 @@ header .row:last-child h5{
 
 /* REGOLE RECENTLY */
 #recently {
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
 #recently .container {
   margin: 0;
+  flex-direction: column;
 }
 
 .music{
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .mbox img{
