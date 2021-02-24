@@ -104,9 +104,36 @@ header .row:last-child h5{
 #selection{
   text-align: center;
   padding-top: 55px;
+  padding-bottom: 20px;
+}
+
+#selection ul {
+  margin-bottom: 0;
 }
 
 #selection ul li {
   display: inline-block;
   margin: 0 15px;
+}
+
+
+/* REGOLE RECENTLY */
+#recently {
+  flex-wrap: wrap;
+}
+
+#recently .container {
+  margin: 0;
+}
+
+.music{
+  flex-direction: column;
+}
+
+.mbox img{
+  height: 200px;
+}
+
+.text {
+  padding: 10px 0;
 }
