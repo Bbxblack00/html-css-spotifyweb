@@ -12,6 +12,10 @@ body {
   flex-direction: column;
 }
 
+.row{
+  margin: 0;
+}
+
 .white {
   color: white;
 }
@@ -21,15 +25,23 @@ body {
   margin-left: 2px;
 }
 
+main {
+  display: flex;
+  width: calc(100% - 250px);
+}
 
 /* REGOLE HEADER */
-header .container{
+header {
   width: 250px;
   flex-basis: 90vh;
   background-color: black;
-  display: flex;
   flex-direction: column;
-  top: 0;
+}
+
+
+
+header ul {
+  list-style: none;
 }
 
 header .container h1, header .container h2{
@@ -80,4 +92,17 @@ header .row:last-child {
 header .row:last-child h5{
   line-height: 30px;
   margin-left: 10px;
+}
+
+/* regole selection */
+#selection{
+  width: calc(100% - 250px);
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+}
+
+#selection ul li {
+  display: inline-block;
 }
