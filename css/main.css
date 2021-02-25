@@ -6,23 +6,7 @@
   padding: 0;
 }
 
-/* h1 {
-  font-size: 32;
-}
-
-h2 {
-  font-size: 27;
-}
-
-h3 {
-  font-size: 22;
-}
-
-h4 {
-  font-size: 17;
-} */
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
 body {
   display: flex;
@@ -57,6 +41,34 @@ main {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+h1{
+  font-size: 48px;
+}
+
+h2{
+  font-size: 38px;
+}
+
+h3{
+  font-size: 33px;
+}
+
+h4{
+  font-size: 26px;
+}
+
+h5{
+  font-size: 24px;
+}
+
+h6{
+  font-size: 19px;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* REGOLE HEADER */
@@ -107,7 +119,7 @@ header .container h1, header .container h2{
 }
 
 .row.piep p{
-  margin-right: 5px;
+  display: inline-block;
 }
 
 #account {
@@ -143,7 +155,7 @@ header .row:last-child h5{
 
 #selection ul li {
   display: inline-block;
-  margin: 20PX 15px;
+  margin: 20px 15px;
 }
 
 
@@ -151,22 +163,25 @@ header .row:last-child h5{
 #recently {
   flex-direction: column;
   flex-wrap: wrap;
+  display: flex;
 }
 
 #recently .container {
   margin: 0;
-  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .music{
-  flex-direction: column;
-  justify-content: space-around;
+  width: 200px;
+  text-align: center;
 }
 
 .mbox img{
   height: 200px;
 }
 
-.text {
+.text{
   padding: 10px 0;
 }
