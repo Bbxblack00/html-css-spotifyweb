@@ -51,9 +51,9 @@ section .container:nth-child(2) {
 
 main {
   width: calc(100% - 250px);
-  position: absolute;
-  top: 0;
-  right: 0;
+  height: 90vh;
+  float: right;
+  overflow: auto;
 }
 
 h1{
@@ -109,6 +109,11 @@ header {
   display: flex;
 }
 
+header .container {
+  display: flex;
+  flex-direction: column;
+}
+
 header .row {
   margin: 15px;
 }
@@ -155,21 +160,9 @@ header .container h1, header .container h2{
   display: inline-block;
 }
 
-header .row:last-child {
-  height: 35px;
-  margin-top: 5px;
-}
 
-header .row:last-child h5{
-  line-height: 30px;
-  margin-left: 10px;
-}
 
 /* regole per il piè di pagina dell'header */
-
-.AC {
-  height: 40px;
-}
 
 .testata p, .Jhon{
   display: inline-block;
@@ -185,9 +178,17 @@ header .row:last-child h5{
   border-radius: 100%;
   margin: 5px;
   display: inline-block;
+  vertical-align: middle;
 }
 
+header .row:last-child {
 
+}
+
+header .row:last-child h5{
+  vertical-align: middle;
+  margin-left: 10px;
+}
 
 
 
@@ -281,8 +282,9 @@ header .row:last-child h5{
 
 
 /* REGOLE FOOTER */
-footer {
+/* footer {
   background-color: red;
   height: 10vh;
   width: 100%;
-}
+  justify-content: flex-end;
+} */
