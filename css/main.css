@@ -16,11 +16,20 @@ body {
 }
 
 section .container:nth-child(2) {
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .row{
   margin: 0;
+}
+
+.spazio {
+  margin-left: 15px;
+}
+
+.distanza {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .white {
@@ -75,12 +84,29 @@ a {
   text-decoration: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* REGOLE HEADER */
 header {
   width: 250px;
   height: 90vh;
   background-color: black;
   float: left;
+  display: flex;
 }
 
 header .row {
@@ -103,14 +129,17 @@ header .container h1, header .container h2{
   margin-bottom: 15px;
 }
 
+.stp-list{
+  flex-grow: 1;
+}
+
 .lime {
   border-left: 2px solid lime;
   padding-left: 5px;
 }
 
-.row.playlist h4, .row.playlist h1{
+.playlist h4, .row.playlist h1{
   display: inline-block;
-  line-height: 63px;
 }
 
 
@@ -126,16 +155,6 @@ header .container h1, header .container h2{
   display: inline-block;
 }
 
-#account {
-  background-color: gray;
-  background-image: url("../img/profile.svg");
-  background-position: center;
-  height: 30px;
-  width: 30px;
-  border-radius: 100%;
-  line-height: 35px;
-}
-
 header .row:last-child {
   height: 35px;
   margin-top: 5px;
@@ -145,6 +164,38 @@ header .row:last-child h5{
   line-height: 30px;
   margin-left: 10px;
 }
+
+/* regole per il piè di pagina dell'header */
+
+.AC {
+  height: 40px;
+}
+
+.testata p, .Jhon{
+  display: inline-block;
+  line-height: 40px;
+}
+
+#account {
+  background-color: gray;
+  background-image: url("../img/profile.svg");
+  background-position: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  margin: 5px;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* regole selection */
 #selection{
@@ -171,9 +222,11 @@ header .row:last-child h5{
 }
 
 #recently .container {
+  padding: 25px 0;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
+  margin-left: 10px;
 }
 
 .music{
@@ -192,6 +245,7 @@ header .row:last-child h5{
 }
 
 
+
 /* regole creatoper */
 #creatoper {
   flex-direction: column;
@@ -204,6 +258,7 @@ header .row:last-child h5{
   margin: 0;
   display: flex;
   flex-wrap: wrap;
+  margin-left: 10px;
 }
 
 #creatoper .container:nth-child(2) {
@@ -211,5 +266,23 @@ header .row:last-child h5{
 }
 
 #creatoper .music {
-  margin: 20px 5%;
+  margin-right: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* REGOLE FOOTER */
+footer {
+  background-color: red;
+  height: 10vh;
+  width: 100%;
 }
