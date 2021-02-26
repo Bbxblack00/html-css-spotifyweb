@@ -312,8 +312,33 @@ header .row:last-child h5{
 }
 
 
+/* regole artisti */
 
+#artisti {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+}
 
+#artisti .container {
+  padding: 25px 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+#artisti .container:nth-child(2) {
+  justify-content: flex-start;
+}
+
+#artisti .music {
+  margin-right: 5%;
+}
+
+#artisti img {
+  border-radius: 100%;
+}
 
 
 
@@ -323,9 +348,29 @@ header .row:last-child h5{
 
 
 /* REGOLE FOOTER */
-/* footer {
-  background-color: red;
+footer {
   height: 10vh;
   width: 100%;
   justify-content: flex-end;
-} */
+  background-color: rgb(40, 40, 40);
+}
+
+footer .row {
+  margin-top: 2vh;
+  margin-left: 15px;
+}
+
+footer img {
+  width: 50px;
+  vertical-align: middle;
+}
+
+footer .name {
+  display: inline-block;
+  padding: 5px;
+}
+
+footer .name a{
+  display: block;
+  margin-left: 5px;
+}
