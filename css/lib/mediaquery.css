@@ -3,8 +3,36 @@
   .spt-selection,
   header .white.spazio,
   .stp-playlist,
-  .stp-list,
-  .testata {
+  .stp-list {
     display: none;
+  }
+
+  header {
+    width: 60px;
+  }
+
+  .burger{
+    display: block;
+    margin-left: 10px;
+  }
+
+  .eliminare{
+    display: none;
+  }
+
+  #cancellare{
+    display: none;
+  }
+
+  main {
+    width: calc(100% - 60px);
+  }
+
+  #opaco .container {
+    width: calc(100% - 60px);
+  }
+
+  .barra{
+    width: 20vw;
   }
 }
