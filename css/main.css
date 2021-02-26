@@ -202,7 +202,7 @@ header .container h1, header .container h2{
 }
 
 header .row:last-child {
-
+  align-self: flex-end;
 }
 
 header .row:last-child h5{
@@ -283,6 +283,10 @@ header .row:last-child h5{
   width: 200px;
   text-align: center;
   align-content: space-around;
+}
+
+.mbox:hover {
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .mbox img{
@@ -459,4 +463,8 @@ footer .name a{
 .bkgray:hover {
   background: rgba(120, 120, 120, 0.7);
   color: white;
+}
+
+.underline:hover {
+  text-decoration: underline;
 }
