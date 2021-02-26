@@ -1,3 +1,10 @@
-@media screen and (min-width: 992px;) {
-
+@media screen and (max-width: 880px) {
+  .spt-title,
+  .spt-selection,
+  header .white.spazio,
+  .stp-playlist,
+  .stp-list,
+  .testata {
+    display: none;
+  }
 }

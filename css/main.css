@@ -333,7 +333,7 @@ header .row:last-child h5{
 }
 
 #artisti .music {
-  margin-right: 5%;
+  marin-right: 5%;
 }
 
 #artisti img {
@@ -358,6 +358,7 @@ footer {
 footer .container {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 footer .row {
@@ -380,10 +381,62 @@ footer .name a{
   margin-left: 5px;
 }
 
-.tasti i{
-  vertical-align: middle;
+.tasti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.fa-play-circle {
-  font-size: 25px;
+.tasti i{
+  margin: 0 15px;
+  font-size: 20px;
+}
+
+#play {
+  font-size: 35px;
+}
+
+.barra {
+  width: 25vw;
+}
+
+.barra p{
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.track-line {
+  width: 80%;
+  height: 6px;
+  border-radius: 3px;
+  display: inline-block;
+  border: 3px solid gray;
+  margin-bottom: 3px;
+  position: relative;
+}
+
+.gray-line {
+  width: 25%;
+  height: 6px;
+  border-radius: 3px;
+  display: inline-block;
+  border: 3px solid lightgray;
+  margin-bottom: 3px;
+  position: absolute;
+  left: 0;
+}
+
+.volume {
+  width: 10vw;
+}
+
+.volume-line {
+  align-self: center;
+  width: 25%;
+  height: 6px;
+  border-radius: 3px;
+  display: inline-block;
+  border: 3px solid gray;
+  margin-bottom: 3px;
+  position: relative;
 }
