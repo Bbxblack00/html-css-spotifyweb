@@ -355,6 +355,11 @@ footer {
   background-color: rgb(40, 40, 40);
 }
 
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
 footer .row {
   margin-top: 2vh;
   margin-left: 15px;
@@ -373,4 +378,12 @@ footer .name {
 footer .name a{
   display: block;
   margin-left: 5px;
+}
+
+.tasti i{
+  vertical-align: middle;
+}
+
+.fa-play-circle {
+  font-size: 25px;
 }
